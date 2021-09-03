@@ -1,0 +1,30 @@
+.login-user-details img {
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+/* .order-wrapper{
+    background-color: #F8EEDC;
+} */
+.order-details{
+    /* background-color: #F8EEDC; */
+    padding: 40px 0;
+    min-height: 100vh !important;
+    max-height: 100% !important;
+}
+.login-user-details {
+    border: 2px solid #5FAF4B;
+    margin-top: 32px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.order-details-title{
+    color: #5FAF4B;
+    margin: 40px 0 30px;
+    font-weight: bold;
+}
+.details-bg{
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 10px;
+}

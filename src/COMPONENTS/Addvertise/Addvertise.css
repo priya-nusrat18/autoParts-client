@@ -1,0 +1,36 @@
+
+  
+.hover-zoom  {
+    background-image: url(../../image//addImg1.jpg) , linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    min-height:230px;
+    width:100%;
+  }
+  .hover-zoom2  {
+    background-image: url(../../image//addImg2.jpg) , linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    min-height:230px;
+    width:100%;
+  }
+  
+  
+  .hover-zoom:hover {
+    opacity:.5;
+    transition: 0.5s ;
+  } 
+  .hover-zoom2:hover {
+    opacity:.5;
+    transition: 0.5s ;
+  } 
+.add-text{
+    color:yellow;
+    font-weight: 700;
+
+}
+.add-text-wrapper{
+    padding-left: 50px;
+}

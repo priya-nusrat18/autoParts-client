@@ -1,0 +1,18 @@
+.checkOutImg img {
+    border: 5px solid #5FAF4B;
+} 
+.see-order{
+    margin-right: 40px;
+}
+#alert-dialog-title h3 {
+    color: #5FAF4B;
+    text-align: center;
+    padding: 17px 0;
+}
+.MuiDialogTitle-root {
+    padding: 0px 40px;
+}
+img.dialog-img {
+    max-width: 105px;
+    border:2px solid #5FAF4B;
+}

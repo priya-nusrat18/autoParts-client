@@ -1,0 +1,11 @@
+.bg-section{
+    background-image:url(../../image//bg.jpg) , linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height:100%;
+    width:100%;
+}
+.react-multi-carousel-list {
+    margin-bottom: 60px;
+}

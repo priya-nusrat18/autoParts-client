@@ -1,0 +1,24 @@
+img.react-reveal.carSlide {
+    width: 100%;
+}
+span.text-border {
+    position: absolute;
+    border: 1px solid #5FAF4B;
+    width: 100%;
+    width: 28%;
+    margin-top: 5px;
+}
+
+.carSlide-heading h1 {
+    position: relative;
+    color:#5FAF4B
+}
+.carSlide-text h5{
+    margin:26px 0;
+}
+.carSlide-text .carslide-icon {
+    color: #5FAF4B;
+    margin-right: 13px;
+    font-size: 23px;
+    margin-bottom: 10px;
+}

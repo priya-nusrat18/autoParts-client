@@ -1,0 +1,93 @@
+.card:hover{
+    border: 1px solid #5FAF4B;
+}
+
+
+ .card-p{
+    margin-top: 8px;
+    min-height: 4rem;
+    font-size: 20px;
+}
+/* p.card-text {
+    color: #D70F64;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 0;
+} */
+
+.card-text  span{
+    font-size:16px;
+    font-weight: 600;
+}
+
+button.button {
+    padding: 10px;
+}
+.button {
+  position: relative;
+  outline: none;
+  text-decoration: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  height: 40px;
+  width: 120px;
+  opacity: 1;
+  background-color: #ffffff;
+  border: 1px solid #5FAF4B;
+}
+  
+.button span {
+  color: #5FAF4B;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+}
+  
+.button:hover {
+  animation: rotate 0.7s ease-in-out both;
+}
+  
+.button:hover span {
+  animation: storm 0.7s ease-in-out both;
+  animation-delay: 0.06s;
+}
+
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+    25% {
+      transform: rotate(3deg) translate3d(0, 0, 0);
+    }
+    50% {
+      transform: rotate(-3deg) translate3d(0, 0, 0);
+    }
+    75% {
+      transform: rotate(1deg) translate3d(0, 0, 0);
+    }
+    100% {
+      transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+  }
+    
+  @keyframes storm {
+    0% {
+      transform: translate3d(0, 0, 0) translateZ(0);
+    }
+    25% {
+      transform: translate3d(4px, 0, 0) translateZ(0);
+    }
+    50% {
+      transform: translate3d(-3px, 0, 0) translateZ(0);
+    }
+    75% {
+      transform: translate3d(2px, 0, 0) translateZ(0);
+    }
+    100% {
+      transform: translate3d(0, 0, 0) translateZ(0);
+    }
+  } 

@@ -1,0 +1,39 @@
+.sidebar{
+    background-color:#5FAF4B;
+    position: fixed;
+}
+.sidebar li{
+    margin-bottom: 2em;
+    text-decoration: none;
+}
+.sidebar li a{
+    text-decoration: none !important;
+}
+.sidebar li:hover span{
+    border-bottom: 2px solid  #fff;
+    width: fit-content;
+}
+.sidebar svg{
+    margin-right: 5px;
+}
+.sidebar ul{
+padding-top: 40px;
+
+
+}
+.sidebar img {
+    margin-top: 40px;
+}
+img.logo-admin {
+    max-width: 80px;
+}
+@media   screen and  (min-width :700px ){
+    img.logo-admin {
+        max-width: 80px;
+    }
+}
+@media   screen and  (min-width :668px ){
+    img.logo-admin {
+        max-width: 80px;
+    }
+}

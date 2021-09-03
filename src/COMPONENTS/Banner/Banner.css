@@ -1,0 +1,22 @@
+.carousel-caption {
+    top: 39%;
+ }
+  .carousel-img{
+    max-height:100vh;
+    
+}
+.carousel-control-next, .carousel-control-prev {
+  position: absolute;
+  top: 54px !important;
+}
+img.carousel-img{
+  max-height: 100vh !important;
+  opacity: .8;
+  z-index: -1;
+}
+
+/* .carousel-caption h5 {z-index: 10 !important;} */
+
+nav.navbar.navbar-expand-lg.navbar-light {
+  z-index: 4;
+}

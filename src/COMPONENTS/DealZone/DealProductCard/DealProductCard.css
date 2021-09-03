@@ -1,0 +1,13 @@
+
+.discount span {
+    position: absolute;
+    background: red;
+    color: #ffff;
+    top: -14px;
+    left: 35%;
+    padding: 5px 8px;
+}
+
+.card {
+    margin-top: 20px;
+}

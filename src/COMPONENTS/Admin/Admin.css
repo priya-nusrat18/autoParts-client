@@ -1,0 +1,17 @@
+form.form.p-5.shadow {
+    margin-top: 60px;
+}
+input.form-control {
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+form.form.shadow {
+    margin-top: 70px;
+    padding: 50px 70px;
+}
+@media  screen and  (min-width :700px ){
+    input.login-btn {
+        margin-top: 20px;
+    }
+}

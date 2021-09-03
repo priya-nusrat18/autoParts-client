@@ -1,0 +1,32 @@
+.footer-area{
+    background:#5FAF4B;
+    background-size: cover;
+}
+
+.footer-area li{
+    padding-bottom: 10px;
+}
+
+.social-media .icon{
+    height: 40px;
+    width: 40px;
+    color: yellow;
+    border-radius: 50%;
+    border: 1px solid yellow;
+    padding: 10px;
+}
+.social-media .active-icon{
+    background-color:yellowgreen  ;
+    color:white;
+}
+.copyRight.text-center p {
+    margin-bottom: 0px;
+}
+.list-unstyled li a {
+    text-decoration: none;
+}
+
+button.btn.btn-call {
+    color:black;
+    background: yellow;
+}
