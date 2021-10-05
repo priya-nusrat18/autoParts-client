@@ -21,7 +21,7 @@ const Admin = () => {
           productImg: imgURL,
 
         }
-        fetch('http://localhost:5000/addProduct' , {
+        fetch('https://gentle-headland-08338.herokuapp.com/addProduct' , {
           method:"POST",
           headers:{ 
             "Content-Type": "application/json",
