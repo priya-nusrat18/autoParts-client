@@ -46,7 +46,7 @@ const [loggedInUser , setLoggedInUser] =useContext(UserContext)
 
   const { id } = useParams();
   useEffect(() => {
-    fetch(`https://gentle-headland-08338.herokuapp.com/product/${id}`)
+    fetch(`https://immense-dawn-60980.herokuapp.com/product/${id}`)
       .then((res) => res.json())
       .then((data) => {
         setProduct(data);
@@ -59,7 +59,7 @@ const [loggedInUser , setLoggedInUser] =useContext(UserContext)
         const orderDetails = {...product , ...loggedInUser , orderTime}
         // console.log(orderDetails);
         delete orderDetails._id;
-        fetch('https://gentle-headland-08338.herokuapp.com/addOrder' , {
+        fetch('https://immense-dawn-60980.herokuapp.com/addOrder' , {
           method:'POST',
           headers:{
             'Content-Type': 'application/json'

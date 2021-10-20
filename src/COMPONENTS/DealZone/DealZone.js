@@ -9,7 +9,7 @@ const DealZone = () => {
   const [products, setProducts] = useState([]);
   const [spinner, setSpinner] = useState(true);
   useEffect(() => {
-    fetch("https://gentle-headland-08338.herokuapp.com/products")
+    fetch("https://immense-dawn-60980.herokuapp.com/products")
       .then((res) => res.json())
       .then((data) => {
         const getData = data.slice(12, 21);

@@ -17,7 +17,7 @@ const Orders = () => {
     useEffect(() => {
         const email = loggedInUser?.email;
         
-        fetch(`https://gentle-headland-08338.herokuapp.com/showOrderProduct/${email}`)
+        fetch(`https://immense-dawn-60980.herokuapp.com/showOrderProduct/${email}`)
             .then(res => res.json())
             .then(data => setOrderedProducts(data))
             setSpinner(false);

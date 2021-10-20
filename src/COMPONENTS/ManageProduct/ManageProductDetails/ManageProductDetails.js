@@ -8,7 +8,7 @@ const ManageProductDetails = ({ products }) => {
 
     const deleteProduct = (id) => {
 
-        fetch(`https://gentle-headland-08338.herokuapp.com/deleteProduct/${id}`,{
+        fetch(`https://immense-dawn-60980.herokuapp.com/deleteProduct/${id}`,{
             method:'DELETE'
         })
         .then(res => res.json())

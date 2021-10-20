@@ -8,7 +8,7 @@ const ManageProduct = () => {
     const [manageProduct, setManageProduct] = useState([]);
 
     useEffect(() => {
-        fetch('https://gentle-headland-08338.herokuapp.com/products')
+        fetch('https://immense-dawn-60980.herokuapp.com/products')
             .then(res => res.json())
             .then(data => setManageProduct(data))
     }, [manageProduct])
