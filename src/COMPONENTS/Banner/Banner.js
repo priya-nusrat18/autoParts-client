@@ -23,7 +23,7 @@ const Banner = () => {
             <Fade left>
               <h5 className="slide-text">CUSTOMIZE , MODIFY, UPGRADE, REPAIR, REPLACE</h5>
               <h1 className="slide-text">SELECT YOUR DREAM VEHICLE</h1>
-              
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde delectus deleniti aut perferendis quis eligendi ratione atque voluptas mollitia repellat!</p>
             </Fade>
           </Carousel.Caption>
         </Carousel.Item>
@@ -39,7 +39,7 @@ const Banner = () => {
             <Fade left>
               <h5>TURBO AND SUPERCHARGERS</h5>
               <h1>POWER ADDERS SUPERCHARGERS</h1>
-              
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde delectus deleniti aut perferendis quis eligendi ratione atque voluptas mollitia repellat!</p>
             </Fade>
           </Carousel.Caption>
         </Carousel.Item>
@@ -55,7 +55,7 @@ const Banner = () => {
             <Fade left>
               <h5> NEW ARRIVALS ACCESSORIES</h5>
               <h1>INTERIOR ACCESSORIES</h1>
-              
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde delectus deleniti aut perferendis quis eligendi ratione atque voluptas mollitia repellat!</p>
             </Fade>
           </Carousel.Caption>
         </Carousel.Item>

@@ -29,6 +29,8 @@ Our CarSpot experts inspect the car on over 200 checkpoints so you get complete 
 
 
 
-<a href="https://zealous-banach-5cf2c0.netlify.app"> Live Site </a> &<a href="https://github.com/priya-nusrat18/autoParts-server">Server Site Code </a>
+<a href="https://zealous-banach-5cf2c0.netlify.app"> Live Site </a>
+ &
+ <a href="https://github.com/priya-nusrat18/autoParts-server">Server Site Code </a>
 
 

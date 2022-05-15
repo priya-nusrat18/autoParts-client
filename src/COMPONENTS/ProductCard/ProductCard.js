@@ -16,7 +16,7 @@ const ProductCard = (props) => {
     return (
             <Col md={3} sm={6}>
            <Card className='my-3' >
-                <Card.Img variant="top" src={productImg} />
+                <Card.Img variant="top" className="image_card" src={productImg} />
                 
                 <Card.Body>
                         <div className="card-text">

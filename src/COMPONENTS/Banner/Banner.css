@@ -11,8 +11,11 @@
 }
 img.carousel-img{
   max-height: 100vh !important;
-  opacity: .8;
+  opacity: .7;
   z-index: -1;
+}
+h1.react-reveal {
+  font-size: 50px;
 }
 
 /* .carousel-caption h5 {z-index: 10 !important;} */

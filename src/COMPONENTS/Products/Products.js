@@ -38,7 +38,7 @@ const Products = () => {
                 
                         :
                     
-                <Row>
+                <Row className="media_query">
                     {
                         products.map(product => <ProductCard product={product} key={product.id}></ProductCard>)
                     }
